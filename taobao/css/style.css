@@ -92,3 +92,26 @@ a{
 #navi li img {
 	vertical-align: sub;
 }
+#banner {
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 698px;
+	width: 100%;
+}
+#coupon {
+	height: 108px;
+	width: 990px;
+	margin: 0 auto;
+	position: relative;
+}
+
+
+#floatAd {
+	position: absolute;
+	left: -213px;
+	top: 1px;
+	width: 186px;
+	height: 256px;
+	z-index: 1;
+}
