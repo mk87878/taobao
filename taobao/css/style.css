@@ -1,5 +1,5 @@
 * {
-	font-family: "微软雅黑";
+	font-family: "Hiragino Sans GB W3","微软雅黑","Microsoft YaHei";
 	font-size: 12px;
 	text-decoration: none;
 	margin: 0px;
@@ -9,7 +9,8 @@ body{
 	margin: 0px;
 	padding: 0px;
 	text-decoration: none;
-	background-color: #d51112;
+	background-image: url(../images/bg.png);
+	background-repeat: repeat;
 }
 ul, ol, li {
 	margin: 0px;
@@ -114,4 +115,67 @@ a{
 	width: 186px;
 	height: 256px;
 	z-index: 1;
+}
+#nowSale {
+	margin: 20px auto 10px auto;
+	height: 1300px;
+	width: 990px;
+	position: relative;
+}
+#nowSaleTitleBox {
+	height: 70px;
+	width: 100%;
+	background-image: url(../images/titleBg_02.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+
+#nowSaleTitle {
+	position: absolute;
+	left: 34px;
+	top: 6px;
+	width: 295px;
+	height: 41px;
+	z-index: 1;
+	background-image: url(../images/titleBg_01.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 40px;
+}
+
+#dataTipsBox {
+	position: absolute;
+	left: 406px;
+	top: 9px;
+	width: 520px;
+	height: 40px;
+	z-index: 2;
+}
+#dataTipsBox ul li {
+	float: left;
+	background: url(../images/dataTipsBg_01.png) no-repeat;
+	width: 125px;
+	height: 39px;
+	margin: 0 5px 0 0;
+	text-align: center;
+}
+#dataTipsBox ul li a{
+	sline-height: 35px;
+	font-size: 17px;
+	color: #FFF;
+	line-height: 31px;
+	font-weight: bold;
+}
+#commodityBox {
+	height: 1100px;
+	width: 948px;
+	background-color: #A32D1D;
+	padding: 0px 20px;
+}
+.commodity {
+	width: 465px;
+	height: 540px;
 }
