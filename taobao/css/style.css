@@ -1,11 +1,11 @@
 * {
-	font-family: "Hiragino Sans GB W3","微软雅黑","Microsoft YaHei";
+	font-family: "Hiragino Sans GB W3", "微软雅黑", "Microsoft YaHei";
 	font-size: 12px;
 	text-decoration: none;
 	margin: 0px;
 	padding: 0px;
 }
-body{
+body {
 	margin: 0px;
 	padding: 0px;
 	text-decoration: none;
@@ -17,11 +17,10 @@ ul, ol, li {
 	padding: 0px;
 	list-style-type: none;
 }
-a{
+a {
 	text-decoration: none;
 	color: #000;
 }
-	
 #logo {
 	margin: 0 auto;
 	height: 110px;
@@ -31,14 +30,13 @@ a{
 	background-repeat: no-repeat;
 	background-position: center;
 }
-
 #qrCode {
-	position:absolute;
-	left:828px;
-	top:32px;
-	width:130px;
-	height:70px;
-	z-index:1;
+	position: absolute;
+	left: 828px;
+	top: 32px;
+	width: 130px;
+	height: 70px;
+	z-index: 1;
 	background-image: url(../images/scan.png);
 	background-repeat: no-repeat;
 	background-position: right;
@@ -55,13 +53,12 @@ a{
 	width: 990px;
 	line-height: 30px;
 }
-
 #naviT {
 	width: 100%;
 	height: 30px;
 	background-color: #000;
 }
-#naviT  li {
+#naviT li {
 	float: left;
 	text-align: center;
 	display: block;
@@ -72,7 +69,6 @@ a{
 	font-size: 18px;
 	font-weight: bold;
 }
-
 #naviD {
 	background-color: #fcdc27;
 	margin-top: 2px;
@@ -85,14 +81,8 @@ a{
 	width: 125px;
 	text-align: center;
 }
-
-#naviD li a {
-	font-size: 14px;
-}
-
-#navi li img {
-	vertical-align: sub;
-}
+#naviD li a { font-size: 14px; }
+#navi li img { vertical-align: sub; }
 #banner {
 	background-image: url(../images/banner.jpg);
 	background-repeat: no-repeat;
@@ -106,8 +96,6 @@ a{
 	margin: 0 auto;
 	position: relative;
 }
-
-
 #floatAd {
 	position: absolute;
 	left: -213px;
@@ -118,7 +106,7 @@ a{
 }
 #nowSale {
 	margin: 20px auto 10px auto;
-	height: 1300px;
+	height: 1180px;
 	width: 990px;
 	position: relative;
 }
@@ -129,7 +117,6 @@ a{
 	background-repeat: no-repeat;
 	background-position: center bottom;
 }
-
 #nowSaleTitle {
 	position: absolute;
 	left: 34px;
@@ -145,7 +132,6 @@ a{
 	font-weight: bold;
 	line-height: 40px;
 }
-
 #dataTipsBox {
 	position: absolute;
 	left: 406px;
@@ -162,7 +148,7 @@ a{
 	margin: 0 5px 0 0;
 	text-align: center;
 }
-#dataTipsBox ul li a{
+#dataTipsBox ul li a {
 	sline-height: 35px;
 	font-size: 17px;
 	color: #FFF;
@@ -198,18 +184,18 @@ a{
 	background-repeat: no-repeat;
 }
 .commodityPic .comPicTips p {
-	margin-top:5px;
+	margin-top: 5px;
 	font-size: 18px;
 	color: #FFF;
-	word-wrap:break-word;
-	width:35px;
-	text-align:center;
+	word-wrap: break-word;
+	width: 35px;
+	text-align: center;
 }
 .commodityPic .comPicTips p .Num01 {
 	font-size: 24px;
 	font-weight: bold;
 }
-.commodity  .timer {
+.commodity .timer {
 	line-height: 50px;
 	background-color: #666666;
 	height: 50px;
@@ -229,7 +215,6 @@ a{
 	position: relative;
 	z-index: 1;
 }
-
 .commodity .price .saleNow {
 	position: absolute;
 	left: 16px;
@@ -270,8 +255,34 @@ a{
 	-webkit-box-shadow: 0 3px 2px rgba(0, 0, 0, 0.88);
 	-moz-box-shadow: 0 3px 2px rgba(0, 0, 0, 0.88);
 	box-shadow: 0 3px 2px rgba(0, 0, 0, 0.88);
-	border-radius:5px;
-	-moz-border-radius:5px;
-	-webkit-border-radius:5px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.comTitleBox {
+	margin: 19px auto;
+	height: 55px;
+	width: 990px;
+	position: relative;
+	background-color: #A20500;
+}
+#grid {
+	margin: 0px auto;
+	height: 830px;
+	width: 990px;
+}
 
+.comTitleText {
+	position: absolute;
+	left: 352px;
+	top: -6px;
+	width: 323px;
+	height: 50px;
+	z-index: 1;
+	background-image: url(../images/comTitleBg.png);
+	background-repeat: no-repeat;
+	font-size: 24px;
+	line-height: 50px;
+	text-align: center;
+	font-weight: bold;
 }
