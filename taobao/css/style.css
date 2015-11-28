@@ -171,11 +171,107 @@ a{
 }
 #commodityBox {
 	height: 1100px;
-	width: 948px;
+	width: 990px;
 	background-color: #A32D1D;
-	padding: 0px 20px;
+	padding: 0px 0px;
 }
 .commodity {
 	width: 465px;
-	height: 540px;
+	height: 530px;
+	float: left;
+	margin: 0px 15px;
+}
+.commodityPic {
+	height: 415px;
+	width: 465px;
+	background-color: #FFF;
+	position: relative;
+}
+.commodityPic .comPicTips {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 35px;
+	height: 156px;
+	z-index: 1;
+	background-image: url(../images/saleTipsBg_01.png);
+	background-repeat: no-repeat;
+}
+.commodityPic .comPicTips p {
+	margin-top:5px;
+	font-size: 18px;
+	color: #FFF;
+	word-wrap:break-word;
+	width:35px;
+	text-align:center;
+}
+.commodityPic .comPicTips p .Num01 {
+	font-size: 24px;
+	font-weight: bold;
+}
+.commodity  .timer {
+	line-height: 50px;
+	background-color: #666666;
+	height: 50px;
+	font-size: 18px;
+	color: #FFF;
+	text-align: center;
+	font-weight: bold;
+}
+.commodity .timer span {
+	font-size: 20px;
+	font-weight: bold;
+}
+.commodity .price {
+	height: 70px;
+	width: 465px;
+	background-color: #FD0D00;
+	position: relative;
+	z-index: 1;
+}
+
+.commodity .price .saleNow {
+	position: absolute;
+	left: 16px;
+	top: 16px;
+	width: 97px;
+	height: 42px;
+	z-index: 6;
+	font-size: 32px;
+	font-weight: bolder;
+	color: #FFF;
+}
+.commodity .price .saleLast {
+	position: absolute;
+	left: 127px;
+	top: 10px;
+	width: 73px;
+	height: 43px;
+	z-index: 6;
+	font-size: 14px;
+	text-decoration: line-through;
+	color: #FFF;
+	line-height: 25px;
+}
+.commodity .price .payButton {
+	position: absolute;
+	left: 318px;
+	top: 18px;
+	width: 120px;
+	height: 40px;
+	z-index: 6;
+	font-size: 24px;
+	line-height: 40px;
+	text-align: center;
+	height: 40px;
+	width: 120px;
+	display: block;
+	background-color: #FFFD02;
+	-webkit-box-shadow: 0 3px 2px rgba(0, 0, 0, 0.88);
+	-moz-box-shadow: 0 3px 2px rgba(0, 0, 0, 0.88);
+	box-shadow: 0 3px 2px rgba(0, 0, 0, 0.88);
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+
 }
