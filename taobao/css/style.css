@@ -21,6 +21,11 @@ a {
 	text-decoration: none;
 	color: #000;
 }
+img {
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
 #logo {
 	margin: 0 auto;
 	height: 110px;
@@ -259,17 +264,17 @@ a {
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 }
+#ad_01 {
+	margin: 10px auto;
+	height: 460px;
+	width: 990px;
+}
 .comTitleBox {
 	margin: 19px auto;
 	height: 55px;
 	width: 990px;
 	position: relative;
 	background-color: #A20500;
-}
-#grid {
-	margin: 0px auto;
-	height: 830px;
-	width: 990px;
 }
 
 .comTitleText {
@@ -285,4 +290,25 @@ a {
 	line-height: 50px;
 	text-align: center;
 	font-weight: bold;
+}
+
+.comTitleRig {
+	position: absolute;
+	left: 820px;
+	top: 18px;
+	width: 152px;
+	height: 23px;
+	z-index: 1;
+}
+#grid {
+	height: 750px;
+	width: 1000px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#grid ul li {
+	float: left;
+	margin: 5px 5px;
 }
