@@ -470,6 +470,8 @@ img {
 	width: 210px;
 	height: 273px;
 	float: left;
+	margin-right: 4px;
+	margin-left: 4px;
 }
 .stuffBoxSec .stuff img {
 	width: 210px;
