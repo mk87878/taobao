@@ -612,3 +612,73 @@ img {
 	height: 376px;
 	width: 990px;
 }
+#hotCommodityTitleBox {
+	height: 140px;
+	width: 990px;
+	margin: 10px auto 0 auto;
+	background-color: #A32D1D;
+	position: relative;
+}
+#titleTextHot {
+	position: absolute;
+	height: 72px;
+	width: 154px;
+	top: 27px;
+	left: 246px;
+	font-size: 60px;
+	font-weight: bold;
+	color: #FFF;
+}
+#titleTextPure {
+	position: absolute;
+	height: 71px;
+	width: 306px;
+	top: 29px;
+	z-index: 2;
+	left: 404px;
+	font-size: 15px;
+	color: #FFF;
+}
+#titleTextPure  span {
+	font-size: 30px;
+	line-height: 38px;
+}
+#hotSearchBox {
+	height: 50px;
+	width: 189px;
+	position: absolute;
+	z-index: 3;
+	top: 52px;
+	left: 764px;
+}
+#hotCommodityBox {
+	background-color: #A32D1D;
+	margin: 0px auto;
+	height: 580px;
+	width: 990px;
+}
+#hotCommodityAll {
+	height: 550px;
+	width: 948px;
+}
+#hotCommodityAll .hotCommodityRow01 {
+	height: 130px;
+	width: 100%;
+}
+#hotCommodityAll .hotCommodityRow01 img {
+	height: 132px;
+	width: 133px;
+	margin: 1px;
+}
+#hotCommodityAll .hotCommodityRow02 {
+	height: 267px;
+	width: 100%;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+#hotCommodityAll .hotCommodityRow02 ol {
+	float: left;
+	margin-right: 1px;
+	margin-left: 1px;
+}
+#hotCommodityAll .hotCommodityRow02 .hotAd { float: left; }
