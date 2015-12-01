@@ -208,6 +208,8 @@ img {
 	color: #FFF;
 	text-align: center;
 	font-weight: bold;
+	width: 100%;
+	display: block;
 }
 .commodity .timer span {
 	font-size: 20px;
@@ -498,4 +500,115 @@ img {
 .payText a {
 	font-weight: bold;
 	color: #ED484B;
+}
+#saleNowTitleBox {
+	height: 120px;
+	width: 990px;
+	margin: 0px auto;
+	background-color: #A32D1D;
+	position: relative;
+}
+#saleNowTitle {
+	height: 100px;
+	width: 450px;
+	display: block;
+	text-align: center;
+	margin: 20px auto 0px auto;
+}
+#saleNowTitle * {
+	font-size: 18px;
+	color: #FFF;
+	text-align: center;
+}
+
+#saleSearch {
+	position: absolute;
+	left: 764px;
+	top: 30px;
+	width: 119px;
+	height: 34px;
+	z-index: 1;
+}
+#saleCommodityBox {
+	margin: 0 auto;
+	height: 800px;
+	width: 990px;
+	background-color: #A32D1D;
+}
+.saleCommodity {
+	height: 390px;
+	width: 310px;
+	display: block;
+	float: left;
+	position: relative;
+	margin: 2px;
+}
+.saleCommodity .saleCommodityPic img { width: 310px; }
+.saleCommodity .saleTime {
+	font-size: 14px;
+	line-height: 40px;
+	text-align: center;
+	background-color: #000;
+	color: #FFF;
+}
+.saleCommodity .saleTime span {
+	font-size: 16px;
+	padding-right: 3px;
+	padding-left: 3px;
+}
+.saleCommodity .salePriceBox {
+	background-color: #fd9800;
+	height: 60px;
+	width: 100%;
+}
+.saleCommodity .price {
+	height: 53px;
+	width: 126px;
+	position: absolute;
+	z-index: 2;
+	top: 335px;
+	left: 4px;
+	font-size: 18px;
+	color: #FFF;
+}
+.saleCommodity .price span{ font-size: 36px; }
+.saleCommodity .salePrLate {
+	position: absolute;
+	z-index: 2;
+	height: 33px;
+	width: 83px;
+	top: 339px;
+	left: 126px;
+}
+.saleCommodity .salePrLate .PrLastText {
+	color: #FFF;
+	text-decoration: line-through;
+	font-size: 14px;
+	line-height: 20px;
+}
+.saleCommodity .salePayButton {
+	height: 40px;
+	width: 70px;
+	position: absolute;
+	top: 339px;
+	left: 224px;
+	z-index: 6;
+	font-size: 24px;
+	line-height: 40px;
+	text-align: center;
+	height: 40px;
+	width: 70px;
+	display: block;
+	background-color: #FFFD02;
+	-webkit-box-shadow: 0 3px 2px rgba(178, 113, 0, 0.9);
+	-moz-box-shadow: 0 3px 2px rgba(178, 113, 0, 0.9);
+	box-shadow: 0 3px 2px rgba(178, 113, 0, 0.9);
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+#adBanner {
+	margin: 10px auto;
+	height: 376px;
+	width: 990px;
 }
