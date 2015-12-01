@@ -682,3 +682,78 @@ img {
 	margin-left: 1px;
 }
 #hotCommodityAll .hotCommodityRow02 .hotAd { float: left; }
+#shopkeeperBox {
+	height: 900px;
+	width: 946px;
+	margin: 5px auto;
+}
+.SkStuffBox {
+	height: 445px;
+	width: 310px;
+	float: left;
+	position: relative;
+	margin-top: 3px;
+	margin-right: 2px;
+	margin-bottom: 3px;
+	margin-left: 3px;
+}
+.SkStuffBox  img {
+	width: 310px;
+	height: 334px;
+}
+.SkStuffBox .sellNum {
+	height: 30px;
+	width: 100%;
+	background-color: #999999;
+	color: #FFF;
+	line-height: 30px;
+	font-weight: bold;
+	font-size: 15px;
+	word-spacing: 2em;
+	text-indent: 1em;
+}
+.SkStuffBox .sellNum span {
+	font-size: 15px;
+	font-weight: bold;
+	color: #FF0;
+}
+.SkStuffBox .sellPrice {
+	height: 60px;
+	width: 100%;
+	padding-bottom: 20px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000;
+	line-height: 50px;
+	text-align: center;
+	background-color: #FFF;
+}
+.SkStuffBox .sellPrice span {
+	color: #999;
+	text-decoration: line-through;
+	font-size: 14px;
+	font-weight: bold;
+}
+#footNaviBox {
+	margin: 10px auto 0 auto;
+	height: 35px;
+	width: 946px;
+	background-color: #000;
+}
+#footNaviBox ul li {
+	float: left;
+	width: 100px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #FFF;
+	text-align: center;
+}
+#footNaviBox ul li a {
+	font-size: 14px;
+	line-height: 25px;
+	color: #FFF;
+}
+#footNaviBox ul {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
