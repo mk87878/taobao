@@ -296,9 +296,9 @@ img {
 
 .comTitleRig {
 	position: absolute;
-	left: 820px;
+	left: 814px;
 	top: 18px;
-	width: 152px;
+	width: 168px;
 	height: 23px;
 	z-index: 1;
 }
@@ -373,9 +373,10 @@ img {
 	border-right-width: 1px;
 	border-right-style: solid;
 	border-right-color: #000;
-	width: 100px;
 	text-align: center;
 	height: 20px;
+	padding-right: 15px;
+	padding-left: 15px;
 }
 #sortBox .sortItem .itemTitle {
 	background-image: url(../images/iconTitle_01.png);
@@ -390,6 +391,8 @@ img {
 }
 #sortBox .sortItem li a img { vertical-align: bottom; }
 .redText { color: #ED462F; }
+.greenText { color: #2A95EF; }
+.yellowText { color: #F6B432; }
 #brandBox {
 	margin: 0px auto;
 	height: 200px;
@@ -452,6 +455,23 @@ img {
 	padding-top: 31px;
 	padding-bottom: 31px;
 	font-weight: bold;
+}
+.wordsRig {
+	position: absolute;
+	left: 761px;
+	top: 19px;
+	width: 221px;
+	height: 23px;
+	z-index: 1;
+}
+#words li a{
+	float: left;
+	font-size: 14px;
+	line-height: 25px;
+	margin-right: 2px;
+	margin-left: 2px;
+	font-weight: bold;
+	color: #FFF;
 }
 .stuffBox {
 	height: 550px;
@@ -682,6 +702,20 @@ img {
 	margin-left: 1px;
 }
 #hotCommodityAll .hotCommodityRow02 .hotAd { float: left; }
+.more {
+	position: absolute;
+	left: 898px;
+	top: 18px;
+	width: 84px;
+	height: 23px;
+	z-index: 1;
+}
+.more a {
+	font-size: 14px;
+	line-height: 25px;
+	font-weight: bold;
+	color: #FFF;
+}
 #shopkeeperBox {
 	height: 900px;
 	width: 946px;
