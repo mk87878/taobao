@@ -757,3 +757,82 @@ img {
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
+#copyRightBox {
+	background-image: url(../images/copyrightBg_03.jpg);
+	background-repeat: repeat-x;
+	height: 110px;
+	width: 916px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding-top: 30px;
+	padding-left: 30px;
+}
+#copyRightBox .notice {
+	width: 365px;
+	border-right-width: 1px;
+	border-right-style: dashed;
+	border-right-color: #FFF;
+	font-weight: bold;
+	color: #FFF;
+	padding-right: 25px;
+	height: 90px;
+	line-height: 18px;
+	float: left;
+}
+#copyRightBox .notice dt {
+	font-size: 14px;
+	line-height: 30px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #FFF;
+	margin-bottom: 10px;
+}
+#copyRightBox .service {
+	width: 260px;
+	border-right-width: 1px;
+	border-right-style: dashed;
+	border-right-color: #FFF;
+	font-weight: bold;
+	color: #FFF;
+	padding-right: 15px;
+	height: 90px;
+	line-height: 18px;
+	float: left;
+	margin-left: 20px;
+}
+#copyRightBox .service dt {
+	font-size: 14px;
+	line-height: 30px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #FFF;
+	margin-bottom: 10px;
+}
+#copyRightBox .service dd a {
+	width: 50px;
+	padding-right: 10px;
+}
+#copyRightBox .service dd a img { vertical-align: middle; }
+#copyRightBox .mark {
+	width: 180px;
+	float: left;
+	text-align: center;
+	margin-left: 25px;
+	line-height: 30px;
+}
+#copyRightBox .mark dt a {
+	font-size: 30px;
+	color: #FFF;
+	font-weight: bold;
+}
+#copyRightBox .mark dd a {
+	border: 1px solid #FFF;
+	width: 180px;
+	display: block;
+	text-align: left;
+	text-indent: 1em;
+	color: #FFF;
+	margin-top: 5px;
+}
